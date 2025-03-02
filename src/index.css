@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-primary text-textPrimary;
+}
+
+.nav-link {
+  @apply relative text-textSecondary hover:text-secondary transition-colors duration-300;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute left-0 bottom-[-5px] w-0 h-[2px] bg-secondary transition-all duration-300;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+.section-heading {
+  @apply flex items-center gap-2 text-2xl font-semibold text-textPrimary mb-8;
+}
+
+.section-heading::after {
+  content: '';
+  @apply h-[1px] bg-textSecondary/30 flex-grow ml-4;
+}
+
+.project-card {
+  @apply relative bg-primary border border-textSecondary/20 rounded-lg p-6 transition-all duration-300;
+}
+
+.project-card:hover {
+  @apply border-secondary/50 shadow-lg shadow-secondary/5 -translate-y-1;
+}
+
+.btn {
+  @apply px-4 py-2 rounded border border-secondary text-secondary font-mono text-sm hover:bg-secondary/10 transition-colors duration-300;
+}
+
+.social-icon {
+  @apply text-textSecondary hover:text-secondary transition-colors duration-300 text-xl;
+}
