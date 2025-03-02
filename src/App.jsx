@@ -15,26 +15,6 @@ import Resume from "./pages/Resume";
 
 function App() {
   const location = useLocation();
-  const [isLoading, setIsLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate loading
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 10);
-
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (isLoading) {
-    return (
-      <div className="h-screen w-full flex items-center justify-center bg-primary">
-        <div className="text-secondary font-mono text-xl">
-          <span className="inline-block animate-pulse">Loading...</span>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -57,3 +37,24 @@ function App() {
 export default App;
 
 // <Route path="/contact" element={<Contact />} />
+
+// const [isLoading, setIsLoading] = useState(true);
+
+// useEffect(() => {
+//   // Simulate loading
+//   const timer = setTimeout(() => {
+//     setIsLoading(false);
+//   }, 10);
+
+//   return () => clearTimeout(timer);
+// }, []);
+
+// if (isLoading) {
+//   return (
+//     <div className="h-screen w-full flex items-center justify-center bg-primary">
+//       <div className="text-secondary font-mono text-xl">
+//         <span className="inline-block animate-pulse">Loading...</span>
+//       </div>
+//     </div>
+//   );
+// }
