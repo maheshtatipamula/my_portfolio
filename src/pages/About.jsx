@@ -63,7 +63,7 @@ const About = () => {
 
               <div className="mt-8 flex gap-4">
                 <a
-                  href="/resume.pdf"
+                  href="/Mahesh_Thatipamula_AI_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn inline-flex items-center"
@@ -117,7 +117,7 @@ const About = () => {
 
             <div className="space-y-12">
               <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-                <div className="text-secondary font-mono">2023 — Present</div>
+                <div className="text-secondary font-mono">2024 — Present</div>
                 <div className="md:col-span-3">
                   <h3 className="text-xl font-semibold text-textPrimary">
                     Frontend Engineer

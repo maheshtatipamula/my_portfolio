@@ -17,7 +17,7 @@ const Resume = () => {
           <div className="flex justify-between items-center mb-8">
             <SectionHeading number="01" title="Resume" />
             <a
-              href="/Mahesh_Thatipamula.pdf"
+              href="/Mahesh_Thatipamula_AI_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn inline-flex items-center"
@@ -29,7 +29,7 @@ const Resume = () => {
           <div className="bg-primary/30 p-8 rounded-lg border border-textSecondary/20 mb-12">
             <div className="text-center mb-6 md:mb-8">
               <h1 className="text-2xl md:text-3xl font-bold text-textPrimary mb-1 md:mb-2">
-                Mahesh
+                MAHESH THATIPAMULA
               </h1>
               <p className="text-secondary text-sm md:text-base">
                 Frontend Engineer
@@ -66,7 +66,7 @@ const Resume = () => {
                     Frontend Engineer
                   </h3>
                   <span className="text-textSecondary text-sm">
-                    2023 — Present
+                    2024 — Present
                   </span>
                 </div>
                 <h4 className="text-secondary mb-2">TechStartup Inc.</h4>

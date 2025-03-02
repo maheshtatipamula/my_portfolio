@@ -40,7 +40,7 @@ const Footer = () => {
 
             <div className="flex space-x-4 text-sm text-textSecondary">
               <a
-                href="/resume.pdf"
+                href="/Mahesh_Thatipamula_AI_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-secondary transition-colors"
