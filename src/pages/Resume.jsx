@@ -27,14 +27,18 @@ const Resume = () => {
           </div>
 
           <div className="bg-primary/30 p-8 rounded-lg border border-textSecondary/20 mb-12">
-            <div className="text-center mb-8">
-              <h1 className="text-3xl font-bold text-textPrimary mb-2">
+            <div className="text-center mb-6 md:mb-8">
+              <h1 className="text-2xl md:text-3xl font-bold text-textPrimary mb-1 md:mb-2">
                 Mahesh
               </h1>
-              <p className="text-secondary">Frontend Engineer</p>
-              <div className="flex justify-center gap-4 mt-2 text-textSecondary">
-                <span>mahesh.tatipamula43@gmail.com</span>
-                <span>•</span>
+              <p className="text-secondary text-sm md:text-base">
+                Frontend Engineer
+              </p>
+              <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mt-2 text-textSecondary text-sm md:text-base">
+                <span className="break-all text-center sm:text-left">
+                  mahesh.tatipamula43@gmail.com
+                </span>
+                <span className="hidden sm:inline">•</span>
                 <span>Hyderabad</span>
               </div>
             </div>
